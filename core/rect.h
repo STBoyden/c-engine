@@ -20,9 +20,9 @@ typedef struct {
 } Rect;
 
 /// Creates a Rect
-extern Rect	Rect_create		(i32, i32, Point2d);
+extern Rect	Rect_create 	(i32, i32, Point2d);
 /// Initialises a Rect pointer
-extern void	Rect_init		(Rect*, i32, i32, Point2d);
+extern void	Rect_init 		(Rect*, i32, i32, Point2d);
 /// Checks if two Rects intersect
 extern bool	Rect_intersects	(const Rect*, const Rect*);
 
