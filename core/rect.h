@@ -15,8 +15,8 @@ struct Bounds {
 typedef struct {
     i32				width;
     i32				height;
-    Point2d 		position;
-    struct Bounds 	bounds;
+    Point2d			position;
+    struct Bounds	bounds;
 } Rect;
 
 /// Creates a Rect

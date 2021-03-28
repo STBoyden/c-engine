@@ -9,8 +9,8 @@
 /// Window struct: Wrapper around SDL_Window and SDL_Renderer while providing dimensions,
 /// resolution and title.
 typedef struct {
-    SDL_Window 		*win_ptr;
-    SDL_Renderer 	*renderer_ptr;
+    SDL_Window		*win_ptr;
+    SDL_Renderer	*renderer_ptr;
     Rect			dimensions;
     str				title;
 } Window;
