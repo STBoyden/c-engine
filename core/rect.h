@@ -13,17 +13,17 @@ struct Bounds {
 
 /// Rect struct: useful for sprites and windows
 typedef struct {
-    i32				width;
-    i32				height;
-    Point2d			position;
-    struct Bounds	bounds;
+    i32 width;
+    i32 height;
+    Point2d position;
+    struct Bounds bounds;
 } Rect;
 
 /// Creates a Rect
-extern Rect	Rect_create		(i32, i32, Point2d);
+extern Rect Rect_create(i32, i32, Point2d);
 /// Initialises a Rect pointer
-extern void	Rect_init		(Rect*, i32, i32, Point2d);
+extern void Rect_init(Rect*, i32, i32, Point2d);
 /// Checks if two Rects intersect
-extern bool	Rect_intersects	(const Rect*, const Rect*);
+extern bool Rect_intersects(const Rect*, const Rect*);
 
 #endif // RECT_H

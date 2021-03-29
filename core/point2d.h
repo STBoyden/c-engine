@@ -10,8 +10,8 @@ typedef struct {
 } Point2d;
 
 /// Creates a Point2d
-extern Point2d	Point2d_create	(i32, i32);
+extern Point2d Point2d_create(i32, i32);
 /// Initialises a Point2d pointer
-extern void		Point2d_init	(Point2d*, i32, i32);
+extern void Point2d_init(Point2d*, i32, i32);
 
 #endif // POINT2D_H

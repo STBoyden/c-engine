@@ -18,21 +18,21 @@ enum bool { false = 0, true = 1 };
 #else
 #error These headers are intended for C projects only.
 #endif
-typedef unsigned char       u8;
-typedef unsigned short int  u16;
-typedef unsigned int        u32;
-typedef unsigned long       u64;
-typedef unsigned long long  u128;
+typedef unsigned char u8;
+typedef unsigned short int u16;
+typedef unsigned int u32;
+typedef unsigned long u64;
+typedef unsigned long long u128;
 
-typedef char        i8;
-typedef short int   i16;
-typedef int         i32;
-typedef long        i64;
-typedef long long   i128;
+typedef char i8;
+typedef short int i16;
+typedef int i32;
+typedef long i64;
+typedef long long i128;
 
 // floating points
-typedef float   f32;
-typedef double  f64;
+typedef float f32;
+typedef double f64;
 
 
 #endif // TYPES_H
